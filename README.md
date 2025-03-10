@@ -97,7 +97,7 @@ git clone https://github.com/LagnadLinus/herba_wanders_frontend
 cd herba_wanders_frontend
 
 2. Install dependencies:
-* Install Node.js and npm if they are not already installed. You can download Node.js from Node website or follow documentation instructions..
+* Install Node.js and npm if they are not already installed. You can download Node.js from Node website or follow documentation instructions. (https://nodejs.org/en)
 * Install project dependencies:
 npm install
 
