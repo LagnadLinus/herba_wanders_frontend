@@ -94,8 +94,8 @@ Installation
 To set up the project locally, follow these steps:
 
 1. Clone the repository:
-git clone https://github.com/your-username/everest-region-ecommerce.git
-cd everest-region-ecommerce
+git clone https://github.com/LagnadLinus/herba_wanders_frontend
+cd herba_wanders_frontend
 
 2. Install dependencies:
 * Install Node.js and npm if they are not already installed. You can download Node.js from here.
