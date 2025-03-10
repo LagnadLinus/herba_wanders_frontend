@@ -26,7 +26,7 @@ This project is an E-commerce website developed for **Herba Wanders Private Limi
 - **PostgreSQL**: Database for storing user and order information (Planned for future).
 
 ## Project Structure
-'''
+"""
 ├── frontend/                        # React app folder
 │   ├── node_modules/                 # Node.js dependencies (auto-generated)
 │   ├── public/                       # Public assets
