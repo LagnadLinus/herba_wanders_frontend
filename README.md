@@ -2,12 +2,12 @@
 
 ## Overview
 
-This project is an E-commerce website developed for **Herba Wanders Private Limited** to sell natural products such as Shilajit, Moringa, Ashwagandha, Chyavanprash, Oils, Honey, and other nutritional supplements. The website allows customers to browse products and make secure online payments through Stripe. 
+This project is an E-commerce website developed for **Herba Wanders Private Limited** to sell natural products such as Shilajit, Moringa, Ashwagandha, Chyavanprash, Oils, Honey, and other nutritional supplements. The website allows customers to browse products and make secure online payments through Stripe in the future.. 
 
 ### Key Features:
 - Responsive and interactive UI using **React** and **TypeScript**.
 - Seamless shopping experience with an easy-to-use **shopping cart**.
-- Secure payment gateway integrated using **Stripe** for online payments.
+- Secure payment gateway will be integrated in futusing **Stripe** for online payments.
 - **Tailwind CSS** for modern, flexible, and responsive design.
 - Easy-to-navigate product listing with product detail pages.
 - Admin features for managing products and customer orders.
@@ -18,7 +18,7 @@ This project is an E-commerce website developed for **Herba Wanders Private Limi
 - **React**: For building interactive and dynamic user interfaces.
 - **TypeScript**: For type safety and enhanced code scalability.
 - **Tailwind CSS**: A utility-first CSS framework to design the user interface efficiently.
-- **Stripe**: Integrated for processing payments.
+- **Stripe**: It will be Integrated for processing payments in future.
 - **Node.js**: JavaScript runtime used for running the React app.
   
 ### Backend (Planned for Future):
@@ -27,7 +27,6 @@ This project is an E-commerce website developed for **Herba Wanders Private Limi
 
 ## Project Structure
 
-```plaintext
 ├── frontend/                        # React app folder
 │   ├── node_modules/                 # Node.js dependencies (auto-generated)
 │   ├── public/                       # Public assets
@@ -98,7 +97,7 @@ git clone https://github.com/LagnadLinus/herba_wanders_frontend
 cd herba_wanders_frontend
 
 2. Install dependencies:
-* Install Node.js and npm if they are not already installed. You can download Node.js from here.
+* Install Node.js and npm if they are not already installed. You can download Node.js from Node website or follow documentation instructions..
 * Install project dependencies:
 npm install
 
@@ -107,7 +106,7 @@ npm install
 npm install -D tailwindcss postcss autoprefixer
 * Generate the Tailwind configuration files:
 npx tailwindcss init
-* Add the necessary Tailwind imports in src/index.css (as shown in the setup steps above).
+* Add the necessary Tailwind imports in src/index.css
 
 4. Start the development server:
 npm start
@@ -117,10 +116,10 @@ Development Setup
 
 1. React & TypeScript: The frontend uses React along with TypeScript for a more robust, scalable codebase.
 2. Tailwind CSS: The project uses Tailwind CSS for styling. It is a utility-first CSS framework that allows for quick, responsive design development.
-3. Stripe: Stripe is integrated for handling online payments securely.
+3. Stripe: Stripe will be integrated for handling online payments securely.
 4. React Context: State management is handled via React Context, which simplifies passing data like the shopping cart state between components.
 5. File Organization:
-Components are organized in the components/ folder.
+Components are organised in the components/ folder.
 Pages are located in the pages/ folder.
 Styles are in the styles/ folder, including global and Tailwind-based styles.
 
@@ -129,7 +128,7 @@ Features
 * Home Page: Displays curated product listings.
 * Product Details Page: Allows customers to view detailed information about each product.
 * Shopping Cart: Users can add items to their cart and proceed to checkout.
-* Checkout Page: Integrates Stripe for secure payment processing.
+* Checkout Page: Integrates Stripe for secure payment processing which will be done in future.
 * Responsive Design: The website is fully responsive and works on both desktop and mobile devices.
 
 How to Contribute
@@ -146,4 +145,4 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Special thanks to Flaticon for the icons used in the project.
-Thanks to Redempticon for the maintenance logo.
+Thanks to Redempticon for the maintenance logo. And also for the Cart icon.
