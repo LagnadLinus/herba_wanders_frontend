@@ -26,7 +26,7 @@ This project is an E-commerce website developed for **Herba Wanders Private Limi
 - **PostgreSQL**: Database for storing user and order information (Planned for future).
 
 ## Project Structure
-"""
+```
 ├── frontend/                        # React app folder
 │   ├── node_modules/                 # Node.js dependencies (auto-generated)
 │   ├── public/                       # Public assets
@@ -87,7 +87,7 @@ This project is an E-commerce website developed for **Herba Wanders Private Limi
 │   ├── postcss.config.js             # PostCSS configuration
 │   ├── README.md                     # React project README
 │   ├── tailwind.config.js            # Tailwind CSS configuration
-
+```
 Installation
 
 To set up the project locally, follow these steps:
