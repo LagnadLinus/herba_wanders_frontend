@@ -7,7 +7,7 @@ This project is an E-commerce website developed for **Herba Wanders Private Limi
 ### Key Features:
 - Responsive and interactive UI using **React** and **TypeScript**.
 - Seamless shopping experience with an easy-to-use **shopping cart**.
-- Secure payment gateway will be integrated in futusing **Stripe** for online payments.
+- Secure payment gateway will be integrated in future **Stripe** for online payments.
 - **Tailwind CSS** for modern, flexible, and responsive design.
 - Easy-to-navigate product listing with product detail pages.
 - Admin features for managing products and customer orders.
