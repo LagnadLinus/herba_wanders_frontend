@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/herba_wanders_frontend/static/css/main.61b57422.css",
-    "main.js": "/herba_wanders_frontend/static/js/main.30557122.js",
+    "main.css": "/herba_wanders_frontend/static/css/main.59a35e61.css",
+    "main.js": "/herba_wanders_frontend/static/js/main.ff008705.js",
     "static/js/204.000593d9.chunk.js": "/herba_wanders_frontend/static/js/204.000593d9.chunk.js",
-    "static/js/147.03e2cfdf.chunk.js": "/herba_wanders_frontend/static/js/147.03e2cfdf.chunk.js",
-    "static/js/415.0e4f179c.chunk.js": "/herba_wanders_frontend/static/js/415.0e4f179c.chunk.js",
-    "static/js/749.58c05d70.chunk.js": "/herba_wanders_frontend/static/js/749.58c05d70.chunk.js",
-    "static/js/623.d9fa970a.chunk.js": "/herba_wanders_frontend/static/js/623.d9fa970a.chunk.js",
+    "static/js/147.c5d068b2.chunk.js": "/herba_wanders_frontend/static/js/147.c5d068b2.chunk.js",
+    "static/js/415.d305e3bc.chunk.js": "/herba_wanders_frontend/static/js/415.d305e3bc.chunk.js",
+    "static/js/749.5902b504.chunk.js": "/herba_wanders_frontend/static/js/749.5902b504.chunk.js",
+    "static/js/623.1231ac1f.chunk.js": "/herba_wanders_frontend/static/js/623.1231ac1f.chunk.js",
     "static/js/324.35edc71c.chunk.js": "/herba_wanders_frontend/static/js/324.35edc71c.chunk.js",
-    "static/js/79.cd442f69.chunk.js": "/herba_wanders_frontend/static/js/79.cd442f69.chunk.js",
+    "static/js/79.8b413df4.chunk.js": "/herba_wanders_frontend/static/js/79.8b413df4.chunk.js",
     "static/js/488.e75445ad.chunk.js": "/herba_wanders_frontend/static/js/488.e75445ad.chunk.js",
     "index.html": "/herba_wanders_frontend/index.html",
-    "main.61b57422.css.map": "/herba_wanders_frontend/static/css/main.61b57422.css.map",
-    "main.30557122.js.map": "/herba_wanders_frontend/static/js/main.30557122.js.map",
+    "main.59a35e61.css.map": "/herba_wanders_frontend/static/css/main.59a35e61.css.map",
+    "main.ff008705.js.map": "/herba_wanders_frontend/static/js/main.ff008705.js.map",
     "204.000593d9.chunk.js.map": "/herba_wanders_frontend/static/js/204.000593d9.chunk.js.map",
-    "147.03e2cfdf.chunk.js.map": "/herba_wanders_frontend/static/js/147.03e2cfdf.chunk.js.map",
-    "415.0e4f179c.chunk.js.map": "/herba_wanders_frontend/static/js/415.0e4f179c.chunk.js.map",
-    "749.58c05d70.chunk.js.map": "/herba_wanders_frontend/static/js/749.58c05d70.chunk.js.map",
-    "623.d9fa970a.chunk.js.map": "/herba_wanders_frontend/static/js/623.d9fa970a.chunk.js.map",
+    "147.c5d068b2.chunk.js.map": "/herba_wanders_frontend/static/js/147.c5d068b2.chunk.js.map",
+    "415.d305e3bc.chunk.js.map": "/herba_wanders_frontend/static/js/415.d305e3bc.chunk.js.map",
+    "749.5902b504.chunk.js.map": "/herba_wanders_frontend/static/js/749.5902b504.chunk.js.map",
+    "623.1231ac1f.chunk.js.map": "/herba_wanders_frontend/static/js/623.1231ac1f.chunk.js.map",
     "324.35edc71c.chunk.js.map": "/herba_wanders_frontend/static/js/324.35edc71c.chunk.js.map",
-    "79.cd442f69.chunk.js.map": "/herba_wanders_frontend/static/js/79.cd442f69.chunk.js.map",
+    "79.8b413df4.chunk.js.map": "/herba_wanders_frontend/static/js/79.8b413df4.chunk.js.map",
     "488.e75445ad.chunk.js.map": "/herba_wanders_frontend/static/js/488.e75445ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.61b57422.css",
-    "static/js/main.30557122.js"
+    "static/css/main.59a35e61.css",
+    "static/js/main.ff008705.js"
   ]
 }
