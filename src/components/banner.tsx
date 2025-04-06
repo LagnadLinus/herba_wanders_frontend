@@ -5,9 +5,9 @@ import React, { useState, useEffect } from 'react';
 
 // Banner Images - Replace these paths with actual images in your project
 const bannerImages = [
-  '/static/images/banner1.jpg',
-  '/static/images/banner2.jpg',
-  '/static/images/banner3.jpg',
+  `${process.env.PUBLIC_URL}/static/images/banner1.jpg`,
+  `${process.env.PUBLIC_URL}/static/images/banner2.jpg`,
+  `${process.env.PUBLIC_URL}/static/images/banner3.jpg`,
 ];
 
 const Banner: React.FC = () => {
