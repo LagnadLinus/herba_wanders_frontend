@@ -94,18 +94,12 @@ Installation
 To set up the project locally, follow these steps:
 
 1. Clone the repository:
-git clone https://github.com/your-username/everest-region-ecommerce.git
-cd everest-region-ecommerce
-
-2. Install dependencies:
-* Install Node.js and npm if they are not already installed. You can download Node.js from here.
-git clone https://github.com/LagnadLinus/herba_wanders_frontend
+git clone https://github.com/LagnadLinus/herba_wanders_frontend.git
 cd herba_wanders_frontend
 
 2. Install dependencies:
+* npm install
 * Install Node.js and npm if they are not already installed. You can download Node.js from Node website or follow documentation instructions. (https://nodejs.org/en)
-* Install project dependencies:
-npm install
 
 3. Set up Tailwind CSS:
 * Install Tailwind CSS, PostCSS, and Autoprefixer:
@@ -113,7 +107,6 @@ npm install -D tailwindcss postcss autoprefixer
 * Generate the Tailwind configuration files:
 npx tailwindcss init
 * Add the necessary Tailwind imports in src/index.css (as shown in the setup steps above).
-* Add the necessary Tailwind imports in src/index.css
 
 4. Start the development server:
 npm start
