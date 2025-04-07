@@ -29,11 +29,11 @@ const ProductDetails: React.FC = () => {
   return (
     <div className="bg-gray-50 min-h-screen py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-5xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
-        <img
-          src={product.image}
-          alt={product.name}
-          className="w-full h-80 object-contain rounded-md shadow-lg"
-        />
+      <img
+        src={`${process.env.PUBLIC_URL}${product.image}`}
+        alt={product.name}
+        className="w-full h-80 object-contain rounded-md shadow-lg"
+      />
         <div className="p-8">
           <h1 className="text-3xl font-semibold text-gray-800">{product.name}</h1>
           <p className="text-2xl text-green-600 font-bold">${product.price}</p>

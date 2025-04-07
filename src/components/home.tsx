@@ -14,12 +14,19 @@ const Home: React.FC = () => {
         We are currently working on improvements to enhance your experience. Please check back soon!
       </p>
       <img 
-        src="/static/maintenance.png"
+        src={`${process.env.PUBLIC_URL}/static/maintenance.png`}
         alt="Maintenance"
         className="mt-6 w-48 md:w-56 object-contain mx-auto"
       />
-      <a href="https://www.flaticon.com/free-icons/maintenance" title="maintenance icons">
-      Maintenance icons created by redempticon - Flaticon</a>
+
+      <a 
+        href="https://www.flaticon.com/free-icons/maintenance"
+        title="maintenance icons"
+        className="text-sm text-green-400 hover:underline mt-4 block"
+      >
+        Maintenance icons created by redempticon - Flaticon
+      </a>
+
     </div>
   );
 };

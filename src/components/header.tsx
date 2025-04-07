@@ -39,7 +39,7 @@ const Header: React.FC = () => {
           
           {/* Logo */}
           <Link to="/" className="text-2xl font-bold text-gray-800 flex-shrink-0">
-            <img src="/static/logo.png" alt="Brand Logo" className="h-8 md:h-10" />
+            <img src={`${process.env.PUBLIC_URL}/static/logo.png`} alt="Brand Logo" className="h-8 md:h-10" />
           </Link>
 
           {/* Search Bar */}
@@ -76,7 +76,7 @@ const Header: React.FC = () => {
               className="relative text-gray-800 hover:text-green-500"
               aria-label="View Cart"
             >
-              <img src="/static/cart-icon.png" alt="Cart" className="h-6 w-6" />
+              <img src={`${process.env.PUBLIC_URL}/static/cart-icon.png`} alt="Cart" className="h-6 w-6" />
               <span className="absolute -top-3 -right-4 bg-red-500 text-white text-xs rounded-full px-1.5 py-0.5">
                 {cartCount}
               </span>
@@ -266,11 +266,11 @@ const Header: React.FC = () => {
             <p className="text-sm text-center text-gray-500 mb-4">Or sign in with</p>
             <div className="flex gap-4 justify-center">
               <button className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-all duration-300">
-                <img src="/static/facebook-icon.svg" alt="Facebook" className="h-5 w-5" />
+                <img src={`${process.env.PUBLIC_URL}/static/facebook-icon.svg`} alt="Facebook" className="h-5 w-5" />
                 Facebook
               </button>
               <button className="flex items-center gap-2 px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 transition-all duration-300">
-                <img src="/static/google-icon.svg" alt="Google" className="h-5 w-5" />
+                <img src={`${process.env.PUBLIC_URL}/static/google-icon.svg`} alt="Google" className="h-5 w-5" />
                 Google
               </button>
             </div>

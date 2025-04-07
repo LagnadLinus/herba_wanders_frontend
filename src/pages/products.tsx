@@ -19,17 +19,17 @@ const Products: React.FC = () => {
   useEffect(() => {
     // Fetching products (mock data for now)
     const fetchedProducts: Product[] = [
-      { id: '1', name: 'Chyavanprash', price: 30, image: '/static/images/chyavanprash.jpg', description: 'A traditional herbal jam with numerous health benefits.' },
-      { id: '2', name: 'Moringa Powder', price: 45, image: '/static/images/moringa_powder.jpg', description: 'A traditional herbal jam with numerous health benefits.' },
-      { id: '3', name: 'Coconut Oil', price: 10, image: '/static/images/coconut-oil.png', description: 'A traditional herbal jam with numerous health benefits.' },
-      { id: '4', name: 'Hand Soap', price: 5, image: '/static/images/hand-soap.png', description: 'A traditional herbal jam with numerous health benefits.' },
-      { id: '5', name: 'Shilajit', price: 50, image: '/static/images/shilajit.jpg', description: 'A traditional herbal jam with numerous health benefits.' },
-      { id: '6', name: 'Chiuri Honey', price: 30, image: '/static/images/native_chiuri_honey.jpg', description: 'A traditional herbal jam with numerous health benefits.' },
-      { id: '7', name: 'Multigrain Satu', price: 20, image: '/static/images/multigrain_satu.jpg', description: 'A traditional herbal jam with numerous health benefits.' },
-      { id: '8', name: 'Moringa Tea Leaves', price: 10, image: '/static/images/moringa_leaves_tea.jpg', description: 'A traditional herbal jam with numerous health benefits.' },
-      { id: '9', name: 'Chia Seeds', price: 20, image: '/static/images/chia_seeds.jpg', description: 'A traditional herbal jam with numerous health benefits.' },
-      { id: '10', name: 'Chamomile ', price: 15, image: '/static/images/chamomile.jpg', description: 'A traditional herbal jam with numerous health benefits.' },
-      { id: '11', name: 'Bee Pollen', price: 25, image: '/static/images/bee_pollen.jpg', description: 'A traditional herbal jam with numerous health benefits.' },
+      { id: '1', name: 'Chyavanprash', price: 30, image: `${process.env.PUBLIC_URL}/static/images/chyavanprash.jpg`, description: 'A traditional herbal jam with numerous health benefits.' },
+      { id: '2', name: 'Moringa Powder', price: 45, image: `${process.env.PUBLIC_URL}/static/images/moringa_powder.jpg`, description: 'A traditional herbal jam with numerous health benefits.' },
+      { id: '3', name: 'Coconut Oil', price: 10, image: `${process.env.PUBLIC_URL}/static/images/coconut-oil.png`, description: 'A traditional herbal jam with numerous health benefits.' },
+      { id: '4', name: 'Hand Soap', price: 5, image: `${process.env.PUBLIC_URL}/static/images/hand-soap.png`, description: 'A traditional herbal jam with numerous health benefits.' },
+      { id: '5', name: 'Shilajit', price: 50, image: `${process.env.PUBLIC_URL}/static/images/shilajit.jpg`, description: 'A traditional herbal jam with numerous health benefits.' },
+      { id: '6', name: 'Chiuri Honey', price: 30, image: `${process.env.PUBLIC_URL}/static/images/native_chiuri_honey.jpg`, description: 'A traditional herbal jam with numerous health benefits.' },
+      { id: '7', name: 'Multigrain Satu', price: 20, image: `${process.env.PUBLIC_URL}/static/images/multigrain_satu.jpg`, description: 'A traditional herbal jam with numerous health benefits.' },
+      { id: '8', name: 'Moringa Tea Leaves', price: 10, image: `${process.env.PUBLIC_URL}/static/images/moringa_leaves_tea.jpg`, description: 'A traditional herbal jam with numerous health benefits.' },
+      { id: '9', name: 'Chia Seeds', price: 20, image: `${process.env.PUBLIC_URL}/static/images/chia_seeds.jpg`, description: 'A traditional herbal jam with numerous health benefits.' },
+      { id: '10', name: 'Chamomile', price: 15, image: `${process.env.PUBLIC_URL}/static/images/chamomile.jpg`, description: 'A traditional herbal jam with numerous health benefits.' },
+      { id: '11', name: 'Bee Pollen', price: 25, image: `${process.env.PUBLIC_URL}/static/images/bee_pollen.jpg`, description: 'A traditional herbal jam with numerous health benefits.' },
     ];
     setProducts(fetchedProducts);
   }, []);

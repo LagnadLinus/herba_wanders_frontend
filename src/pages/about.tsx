@@ -127,18 +127,18 @@ const About: React.FC = () => {
           <p className="text-lg text-gray-700">
             You can reach us at{" "}
             <a
-              href="mailto:support@herbawanders.com"
-              className="text-[#84cc16] hover:underline"
+              href="mailto:Everestregionenterprises@gmail.com"
+              className="text-[#84cc16] hover:underline" target="_blank" rel="noopener noreferrer"
             >
               Everestregionenterprises@gmail.com
             </a>{" "}
             or call us at Mobile: {" "}
-            <a href="tel:+977-9820234879" className="text-[#84cc16] hover:underline">
+            <a href="tel:+977-9820234879" className="text-[#84cc16] hover:underline" target="_blank" rel="noopener noreferrer">
             +977-9820234879
             </a>
             {" "}
             | Phone: {" "}
-            <a href="tel:01-5918290" className="text-[#84cc16] hover:underline">
+            <a href="tel:01-5918290" className="text-[#84cc16] hover:underline" target="_blank" rel="noopener noreferrer">
              01-5918290
             </a>.
           </p>

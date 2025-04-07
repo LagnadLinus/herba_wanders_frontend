@@ -17,7 +17,7 @@ interface CartItem {
 const Checkout: React.FC = () => {
   const [cartItems, setCartItems] = useState<CartItem[]>([]);
   const [cartTotal, setCartTotal] = useState(0);
-  const [shipping, setShipping] = useState(5); // Flat rate shipping
+  const [shipping] = useState(5); // Flat rate shipping
   const [discount, setDiscount] = useState(0); // Discount for coupon
   const [coupon, setCoupon] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -135,7 +135,7 @@ const Checkout: React.FC = () => {
       <div key={item.id} className="flex justify-between items-center mb-2">
         <div className="flex items-center gap-4">
           <img
-            src={item.image}
+            src={`${process.env.PUBLIC_URL}${item.image}`} 
             alt={item.name}
             className="h-12 w-12 rounded-md object-cover"
           />
