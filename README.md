@@ -1,131 +1,149 @@
-<<<<<<< HEAD
-🌿 Herba Wanders – Nutritional E-Commerce Platform
+# Herba Wanders E-Commerce Website
 
-Welcome to Herba Wanders, an e-commerce platform dedicated to providing high-quality nutritional products. Built with React, Tailwind CSS, and TypeScript, this modern and responsive web application offers a seamless shopping experience for customers looking for health and wellness products.
-🚀 Features
+## Overview
 
-🛍️ E-Commerce Functionality
-Product Listing – Browse a variety of nutritional products with detailed descriptions and pricing.
-Shopping Cart – Add, update, or remove items from your cart with a smooth user experience.
-User Authentication – Secure login and registration system for personalized shopping.
-Checkout Process – A structured checkout system (to be integrated with a payment gateway).
-🎨 Modern UI/UX
-Responsive Design – Optimized for desktops, tablets, and mobile devices.
-Tailwind CSS Styling – Clean and consistent UI with a flexible utility-first CSS framework.
-Reusable Components – Modular design for scalability and maintainability.
-📖 Informational Pages
-Home Page – Showcasing featured products and promotions.
-About Us – Information about Herba Wanders and its mission.
-Tips & Resources – Health and nutrition tips for customers.
-Contact Page – Easy communication with customer support.
-🏗️ Tech Stack
+This project is an E-commerce website developed for **Herba Wanders Private Limited** to sell natural products such as Shilajit, Moringa, Ashwagandha, Chyavanprash, Oils, Honey, and other nutritional supplements. The website allows customers to browse products and make secure online payments through Stripe. 
 
-Frontend:
-React – Component-based UI framework for building a dynamic interface.
-TypeScript – Ensures type safety and maintainable code.
-Tailwind CSS – Utility-first CSS for fast and efficient styling.
-Backend (Future Plans):
-To be implemented – Potential stack options include Node.js (Express.js), Firebase, or a Headless CMS.
-📂 Project Structure
+### Key Features:
+- Responsive and interactive UI using **React** and **TypeScript**.
+- Seamless shopping experience with an easy-to-use **shopping cart**.
+- Secure payment gateway integrated using **Stripe** for online payments.
+- **Tailwind CSS** for modern, flexible, and responsive design.
+- Easy-to-navigate product listing with product detail pages.
+- Admin features for managing products and customer orders.
 
-frontend/                      
-├── node_modules/              # Node.js dependencies
-├── public/                    # Public assets
-│   ├── index.html             # Main HTML file for React
-│   └── favicon.ico            # Favicon
-├── src/                       
-│   ├── components/            # Reusable React components
-│   │   ├── Banner.tsx         # Banner component
-│   │   ├── Footer.tsx         # Footer component
-│   │   ├── Header.tsx         # Header component
-│   │   └── LoginRegisterPanel.tsx  # Login/Register panel
-│   ├── pages/                 
-│   │   ├── About.tsx          # About page
-│   │   ├── Cart.tsx           # Cart page
-│   │   ├── Contact.tsx        # Contact page
-│   │   ├── Home.tsx           # Homepage
-│   │   ├── Products.tsx       # Product listing or detail page
-│   │   └── TipsAndResources.tsx # Tips & Resources page
-│   ├── styles/                
-│   │   ├── globals.css        # Global styles (e.g., reset, base styles)
-│   ├── App.tsx                # Main App component
-│   └── index.tsx              # React entry point
-├── package.json               # Node.js dependencies and scripts
-├── package-lock.json          # Locked dependency versions
-├── README.md                  # Project documentation
-└── tsconfig.json              # TypeScript configuration
-🛠️ Getting Started
+## Tech Stack
 
-Prerequisites
-Ensure you have the following installed on your system:
-Node.js (Latest LTS recommended)
-Yarn or npm
+### Frontend:
+- **React**: For building interactive and dynamic user interfaces.
+- **TypeScript**: For type safety and enhanced code scalability.
+- **Tailwind CSS**: A utility-first CSS framework to design the user interface efficiently.
+- **Stripe**: Integrated for processing payments.
+- **Node.js**: JavaScript runtime used for running the React app.
+  
+### Backend (Planned for Future):
+- **Django (Python)**: Backend framework for handling APIs and database interactions.
+- **PostgreSQL**: Database for storing user and order information (Planned for future).
+
+## Project Structure
+
+```plaintext
+├── frontend/                        # React app folder
+│   ├── node_modules/                 # Node.js dependencies (auto-generated)
+│   ├── public/                       # Public assets
+│   │   ├── static/                   # Static folder for images and assets
+│   │   │   ├── images/               # Images folder
+│   │   │   │   ├── banner1.jpg       # Banner image
+│   │   │   │   ├── banner2.jpg       # Banner image
+│   │   │   │   ├── banner3.jpg       # Banner image
+│   │   │   │   ├── bee_pollen.jpg    # Product image
+│   │   │   │   ├── chamomile.jpg     # Product image
+│   │   │   │   ├── chia_seeds.jpg    # Product image
+│   │   │   │   ├── chyavanprash.jpg  # Product image
+│   │   │   │   ├── coconut-oil.png  # Product image
+│   │   │   │   ├── hand-soap.png     # Product image
+│   │   │   │   ├── moringa_leaves_tea.jpg  # Product image
+│   │   │   │   ├── moringa_powder.jpg     # Product image
+│   │   │   │   ├── multigrain_satu.jpg    # Product image
+│   │   │   │   ├── native_chiuri_honey.jpg  # Product image
+│   │   │   │   ├── shilajit.jpg      # Product image
+│   │   │   ├── cart-icon.png         # Cart icon
+│   │   │   ├── logo.png              # Logo
+│   │   │   ├── maintenance.png       # Maintenance image
+│   │   ├── favicon.ico               # Favicon
+│   │   ├── index.html                # Main HTML file for React
+│   │   ├── logo192.png               # Logo for PWA (192px)
+│   │   ├── logo512.png               # Logo for PWA (512px)
+│   │   ├── manifest.json             # Web app manifest
+│   │   └── robots.txt                # Robots.txt for search engines
+│   ├── src/                          # React source code
+│   │   ├── components/               # Reusable React components
+│   │   │   ├── banner.tsx            # Banner component
+│   │   │   ├── Cart.tsx              # Cart component
+│   │   │   ├── footer.tsx            # Footer component
+│   │   │   ├── header.tsx            # Header component
+│   │   │   ├── home.tsx              # Home page component
+│   │   │   └── ProductDetails.tsx    # Product details component
+│   │   ├── contexts/                 # Contexts for state management
+│   │   │   └── CartContext.tsx       # Cart context
+│   │   ├── pages/                    # Page components
+│   │   │   ├── about.tsx             # About page
+│   │   │   ├── checkout.tsx          # Checkout page
+│   │   │   ├── contact.tsx           # Contact page
+│   │   │   ├── products.tsx          # Product listing or detail page
+│   │   │   └── tipsandresources.tsx  # Tips & Resources page
+│   │   ├── styles/                   # Global and local Tailwind styles
+│   │   │   └── globals.css           # Global styles (e.g., reset, base styles)
+│   │   ├── App.css                   # Main app styles
+│   │   ├── App.test.tsx              # Unit tests
+│   │   ├── App.tsx                   # Main App component
+│   │   ├── index.css                 # Index-specific styles
+│   │   ├── index.tsx                 # React entry point
+│   │   ├── logo.svg                  # Logo SVG (optional)
+│   │   ├── reportWebVitals.ts        # Web vitals logging
+│   │   ├── setupTests.ts             # Test setup
+│   │   └── tsconfig.json             # TypeScript configuration
+│   ├── package.json                  # Node.js dependencies and scripts
+│   ├── package-lock.json             # Locked dependency versions
+│   ├── postcss.config.js             # PostCSS configuration
+│   ├── README.md                     # React project README
+│   ├── tailwind.config.js            # Tailwind CSS configuration
+
 Installation
-Clone the repository and install dependencies:
-git clone https://github.com/your-username/herba_wanders_ecomm.git
-cd herba-wanders/frontend
-npm install  # or yarn install
-Running the Development Server
-Start the React application locally:
-npm run dev  # or yarn dev
-This will launch the app on http://localhost:3000/.
-📌 Future Enhancements
 
-Backend Integration – Implement a Node.js/Express or Firebase backend for authentication and product management.
-Payment Gateway – Integration with Stripe or PayPal for secure transactions.
-Admin Dashboard – A control panel for managing products, orders, and users.
-SEO Optimization – Improve search engine ranking with metadata and structured data.
-🤝 Contributing
+To set up the project locally, follow these steps:
 
-Contributions are welcome! If you have ideas, suggestions, or find bugs, feel free to open an issue or submit a pull request.
-📜 License
+1. Clone the repository:
+git clone https://github.com/your-username/everest-region-ecommerce.git
+cd everest-region-ecommerce
 
-This project is licensed under the herba wanders License.
-=======
-# Getting Started with Create React App
+2. Install dependencies:
+* Install Node.js and npm if they are not already installed. You can download Node.js from here.
+* Install project dependencies:
+npm install
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+3. Set up Tailwind CSS:
+* Install Tailwind CSS, PostCSS, and Autoprefixer:
+npm install -D tailwindcss postcss autoprefixer
+* Generate the Tailwind configuration files:
+npx tailwindcss init
+* Add the necessary Tailwind imports in src/index.css (as shown in the setup steps above).
 
-## Available Scripts
+4. Start the development server:
+npm start
+This will run the application locally at http://localhost:3000/.
 
-In the project directory, you can run:
+Development Setup
 
-### `npm start`
+1. React & TypeScript: The frontend uses React along with TypeScript for a more robust, scalable codebase.
+2. Tailwind CSS: The project uses Tailwind CSS for styling. It is a utility-first CSS framework that allows for quick, responsive design development.
+3. Stripe: Stripe is integrated for handling online payments securely.
+4. React Context: State management is handled via React Context, which simplifies passing data like the shopping cart state between components.
+5. File Organization:
+Components are organized in the components/ folder.
+Pages are located in the pages/ folder.
+Styles are in the styles/ folder, including global and Tailwind-based styles.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Features
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* Home Page: Displays curated product listings.
+* Product Details Page: Allows customers to view detailed information about each product.
+* Shopping Cart: Users can add items to their cart and proceed to checkout.
+* Checkout Page: Integrates Stripe for secure payment processing.
+* Responsive Design: The website is fully responsive and works on both desktop and mobile devices.
 
-### `npm test`
+How to Contribute
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Fork this repository and create a new branch:
+git checkout -b feature-branch
+2. Make your changes and commit them:
+git commit -m "Added new feature"
+3. Push the changes to your fork:
+git push origin feature-branch
+4. Open a pull request to merge your changes into the main repository.
 
-### `npm run build`
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
->>>>>>> 400fa74 (Initial Commit)
+Special thanks to Flaticon for the icons used in the project.
+Thanks to Redempticon for the maintenance logo.
