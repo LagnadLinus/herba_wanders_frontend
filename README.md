@@ -1,7 +1,6 @@
 # Herba Wanders E-Commerce Website
 
 ## Overview
-=======
 This project is an E-commerce website developed for **Herba Wanders Private Limited** to sell natural products such as Shilajit, Moringa, Ashwagandha, Chyavanprash, Oils, Honey, and other nutritional supplements. The website allows customers to browse products and make secure online payments through Stripe in the future.. 
 
 ### Key Features:
