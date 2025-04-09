@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
           {/* Logo Section */}
           <div className="flex flex-col items-center sm:items-start">
             <Link to="/" className="mb-4">
-              <img src={`${process.env.PUBLIC_URL}/static/logo.png`} alt="Brand Logo" className="w-36" />
+              <img src={`${process.env.PUBLIC_URL}/static/images.logo.png`} alt="Brand Logo" className="w-36" />
 
             </Link>
           </div>
