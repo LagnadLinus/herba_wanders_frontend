@@ -39,7 +39,7 @@ const Header: React.FC = () => {
           
           {/* Logo */}
           <Link to="/" className="text-2xl font-bold text-gray-800 flex-shrink-0">
-            <img src={`${process.env.PUBLIC_URL}/static/logo.png`} alt="Brand Logo" className="h-8 md:h-10" />
+            <img src={`${process.env.PUBLIC_URL}/static/images/logo.png`} alt="Brand Logo" className="h-8 md:h-10" />
           </Link>
 
           {/* Search Bar */}
@@ -76,7 +76,7 @@ const Header: React.FC = () => {
               className="relative text-gray-800 hover:text-green-500"
               aria-label="View Cart"
             >
-              <img src={`${process.env.PUBLIC_URL}/static/cart-icon.png`} alt="Cart" className="h-6 w-6" />
+              <img src={`${process.env.PUBLIC_URL}/static/images/cart-icon.png`} alt="Cart" className="h-6 w-6" />
               <span className="absolute -top-3 -right-4 bg-red-500 text-white text-xs rounded-full px-1.5 py-0.5">
                 {cartCount}
               </span>
