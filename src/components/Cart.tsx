@@ -85,7 +85,7 @@ const Cart: React.FC<CartProps> = ({ isOpen, closeCart, setCartCount }) => {
             cartItems.map((item) => (
               <div key={item.id} className="flex items-center gap-4 border-b pb-4">
                 <img
-                  src= {`${process.env.PUBLIC_URL}${item.image}`}
+                  src= {`${process.env.PUBLIC_URL}/static/images/${item.image}`}
                   alt={item.name}
                   className="h-16 w-16 rounded-md object-cover"
                 />
