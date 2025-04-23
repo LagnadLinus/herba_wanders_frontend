@@ -30,7 +30,7 @@ const ProductDetails: React.FC = () => {
     <div className="bg-gray-50 min-h-screen py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-5xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
       <img
-        src={`${process.env.PUBLIC_URL}${product.image}`}
+        src={`${process.env.PUBLIC_URL}/static/images/${product.image}`}
         alt={product.name}
         className="w-full h-80 object-contain rounded-md shadow-lg"
       />
